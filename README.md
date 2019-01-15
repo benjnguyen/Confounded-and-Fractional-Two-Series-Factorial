@@ -47,7 +47,7 @@ We have to note that the cost of using fractional designs is a penalty towards o
 
 # De-Aliasing Effects
 
-To determine which effects are TRULY large, we have to devise a new design based on our original design by manipulating the signs of the elements of the set I, More in the text.
+To determine which effects are TRULY large, we have to devise a new design based on our original design by manipulating the signs of the elements of the set I, More in the text (Reference CFCDAE - Oehlert)
 
 # Resolution
 As seen before, resolution is defined as the minimal length of an element in the set I. In general, a higher resolution is better than a design with lower resolution because high resolution is associated with the property of confounding with higher order interactions.
