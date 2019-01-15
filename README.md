@@ -54,5 +54,3 @@ As seen before, resolution is defined as the minimal length of an element in the
 
 # Abberation
 An abberation is a count of the number of $k-p+1 ,,, k+p$ way interactions that occur given an aliased set. Generally, designs with lower abberations are better.
-
-This is a line from RStudio
