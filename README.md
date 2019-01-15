@@ -1,1 +1,1 @@
-# twoseries
+# twoseriesTwo Series Factorial
