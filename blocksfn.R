@@ -16,10 +16,10 @@ blocks <- function(k, q, x, binaryCol = FALSE, table = FALSE, printset = FALSE)
   #       in the list of standard orders (str.input)
   #       and finding the treatment letter in the (term) column.
   
-  sick = as.matrix(strsplit(x, ""))
-  sickness = do.call(rbind, sick)
-  matrix(as.numeric(sickness), nrow = nrow(sickness))
-  testgen = matrix(as.numeric(sickness), nrow = nrow(sickness))
+  binaryseq = as.matrix(strsplit(x, ""))
+  parsebin = do.call(rbind, binaryseq)
+  matrix(as.numeric(parsebin), nrow = nrow(parsebin))
+  testgen = matrix(as.numeric(parsebin), nrow = nrow(parsebin))
   if (q == 1) {
     set = conf.set(testgen, 2)
     str.set = matrix(0, nrow = 1, ncol = 1)
