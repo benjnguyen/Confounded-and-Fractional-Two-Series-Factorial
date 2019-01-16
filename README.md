@@ -23,7 +23,7 @@ In this case, we select generators $W_1,...,W_p$, which are all aliased with a g
 
 If we are given the set I, then we can construct base factorials using a sequence of factors that do not all appear concurrenttly in any single element in I. If the concatenation of the factors forms an element in the set I, then we have done it incorrectly.
 
-Alternatively, if we are not given the set I, then we must generate the set I for ourselves. In the usual construction, define k main effects and enumerate all the possible pairs of combinations (standard order) up to $2^{k-p}$ terms. After that, we want to define contrasts. If we are not given a resolution, that we have some maneuverability in our choice of elements of I; although we should try to select elements of I to have high order interaction terms. If we are given a resolution, say resolution(I) = t, then we should define the remaining p main effects as a t-1 order interaction (more on this later).
+Alternatively, if we are not given the set I, then we must generate the set I for ourselves. In the usual construction, define k main effects and enumerate all the possible pairs of combinations (standard order) up to $2^{k-p}$ terms. After that, we want to define contrasts. If we are not given a resolution, then we have some maneuverability in our choice of elements of I; although we should try to select elements of I to have high order interaction terms. If we are given a resolution, say resolution(I) = t, then we should define the remaining p main effects as a t-1 order interaction (more on this later).
 
 # Alias of effects of I
 
