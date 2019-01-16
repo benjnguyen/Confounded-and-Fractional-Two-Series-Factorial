@@ -1,6 +1,8 @@
 # Two Series Factorial
 
-This repository will contain information with respect to a function that I created that deals with generating designs for factorial designs dealing with factors, each with two levels. To recall the characteristics of such a design, some brief notes follow below:
+This repository will contain information with respect to a function that I created that deals with generating designs for factorial designs dealing with factors, each with two levels. Admittedly, the function is quite lengthy and difficult to parse all in one go; hopefully I will find some time to refactor the code into more understandable components. This will also allow me to build upon the function to do more things in relation to two series designs (and other designs with prime number of factors greater than two). 
+
+To recall the characteristics of such a design, some brief notes follow below:
 *Note that the following content has been written in markdown and has not been rendered to correctly display the intended appearance of the notebook on github; instead, it will appear correctly when the file is pulled into a markdown/laTeX environment.
 
 # Two-series Designs
