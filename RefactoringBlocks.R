@@ -9,9 +9,10 @@
 #' @export
 #' 
 binsplit <- function(x) {
-  sick = as.matrix(strsplit(x, ""))
-  sickness = do.call(rbind, sick)
-  testgen = matrix(as.numeric(sickness), nrow = nrow(sickness))
+  binaryseq = as.matrix(strsplit(x, ""))
+  parsebin = do.call(rbind, binaryseq)
+  matrix(as.numeric(parsebin), nrow = nrow(parsebin))
+  testgen = matrix(as.numeric(parsebin), nrow = nrow(parsebin))
   return(testgen)
 }
 
