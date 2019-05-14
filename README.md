@@ -1,6 +1,6 @@
 # Two Series Factorial
 
-This is a repository containing work related to two-series factorial design. It addresses issues arising within the design scheme when there are many features in consideration. In particular, the work in this repository addresses how to deal with confounded variables and how to select fractional designs.
+This is a repository containing work related to two-series factorial design. It addresses issues arising within the design scheme when there are many features in consideration. In particular, the work in this repository addresses how to deal with confounded variables and how to select fractional designs for occassions when designs become too large in size.
 
 To see what can be done using my function, see the vignette (documentation) (blocksfnvig.pdf).
 
