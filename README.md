@@ -7,3 +7,8 @@ To see what can be done using my function, see the vignette (documentation) (blo
 To see some notes on two series factorials, see TwoSeriesNotes under Notes.
 
 To see code blocksfn.R or RefactoringBlocks.R under Functions.
+
+## R Shiny
+
+Interactive web application showcasing the blocks function.
+https://benjnguyen.shinyapps.io/blocks-function-shinyrmd/
